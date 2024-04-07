@@ -1,0 +1,14 @@
+.carousel-item__img{
+    width: 100%;
+    height: 500px;
+}
+
+/*con @media se puede editar las dimensiones con los cambios de tamaño de pantalla*/
+@media (max-width:766px){
+        .carousel-item__img{
+            height: 300px;
+        }
+}
+.carrusel{
+    margin: auto 7rem;
+}
